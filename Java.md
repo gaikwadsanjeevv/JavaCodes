@@ -1,6 +1,6 @@
 ## Java  
 OOPs is a concept and different langauges implement it with there own syntax.  
-Class- blue Print             Object- Real Entity  
+Class- blue Print            Object- Real Entity    
 Logical                        real  
 Properties(Data)               Properties(Data)  
 Behaviour(Methods)             Behaviour(Methods) 
