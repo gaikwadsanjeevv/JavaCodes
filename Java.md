@@ -1,9 +1,7 @@
 ## Java  
 OOPs is a concept and different langauges implement it with there own syntax.  
-Class- blue Print            Object- Real Entity    
-Logical                        real  
-Properties(Data)               Properties(Data)  
-Behaviour(Methods)             Behaviour(Methods) 
+Class- blue Print--> Logical --> Properties(Data), Behaviour(Methods)  
+Object- Real Entity --> real --> Properties(Data), Behaviour(Methods)  
 new keyword: It allocates a dynamic memory allocation to create objects. 
 ### Constructor  
 1. Default Constructor  
