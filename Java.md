@@ -1,21 +1,61 @@
-#### Java  
-![image](https://github.com/user-attachments/assets/40e93602-0038-422c-a8ce-ee0a65f1d383)  
-```Java
-In the Java Virtual Machine (JVM), the Just-In-Time (JIT) compiler is an essential component designed to enhance the runtime performance of Java applications. Here's how it works:
+## Java  
+OOPs is a concept and different langauges implement it with there own syntax.  
+Class- blue Print             Object- Real Entity  
+Logical                        real  
+Properties(Data)               Properties(Data)  
+Behaviour(Methods)             Behaviour(Methods) 
+new keyword: It allocates a dynamic memory allocation to create objects. 
+### Constructor  
+1. Default Constructor  
+A default constructor is a constructor that does not take any parameters.  
+If you do not define any constructor in a class, Java provides a default constructor automatically.  
+The default constructor initializes the object with default values (e.g., null for objects, 0 for integers, and false for booleans).  
+``` Java
+class MyClass {
+    // No constructor explicitly defined
+}
 
-Interpretation at First: When a Java program starts, the JVM initially interprets the bytecode (produced by the Java compiler) into native machine code for execution.
-
-Hotspot Code Detection: The JVM monitors which parts of the code are executed frequently, known as "hotspots." These hotspots often include loops, frequently invoked methods, or code that repeats many times.
-
-JIT Compilation: Instead of interpreting the hotspot code repeatedly, the JIT compiler translates these parts of the bytecode into native machine code. Once compiled, the native code is executed directly, skipping the interpretation process.
-
-Optimization: The JIT compiler applies various runtime optimizations to the hotspot code, such as:
-
-Inline expansion: Replacing method calls with the actual method code to reduce the overhead of method invocation.
-Loop unrolling: Optimizing loops by reducing the number of iterations.
-Dead code elimination: Removing code that is never executed.
-Adaptive optimizations: Adjusting optimizations based on runtime conditions.
-Caching: Once compiled, the native code is cached for reuse, so subsequent executions are faster.
-
-By leveraging the JIT compiler, the JVM can balance between the flexibility of bytecode interpretation and the speed of native machine code execution, providing significant performance improvements for Java applications.
+public class Main {
+    public static void main(String[] args) {
+        MyClass obj = new MyClass(); // Java provides a default constructor
+    }
+}
 ```
+2. Non-Parameterized Constructor  
+A non-parameterized constructor is explicitly defined by the programmer and does not take any arguments.  
+It serves the same purpose as a default constructor but is explicitly coded
+```Java
+class MyClass {
+    MyClass() {
+        System.out.println("Non-Parameterized Constructor");
+    }
+}
+
+public class Main {
+    public static void main(String[] args) {
+        MyClass obj = new MyClass(); // Calls the non-parameterized constructor
+    }
+}
+
+```
+3. Parameterized Constructor  
+A parameterized constructor is defined with parameters, allowing you to pass arguments when creating an object.  
+Useful for initializing objects with specific values  
+```java
+class MyClass {
+    int value;
+
+    // Parameterized Constructor
+    MyClass(int val) {
+        value = val;
+        System.out.println("Parameterized Constructor: Value = " + value);
+    }
+}
+
+public class Main {
+    public static void main(String[] args) {
+        MyClass obj = new MyClass(10); // Passes value 10 to the constructor
+    }
+}
+```
+
