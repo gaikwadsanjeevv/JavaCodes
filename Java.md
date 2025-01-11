@@ -80,7 +80,23 @@ public class Main {
   ![image](https://github.com/user-attachments/assets/2e4b4f08-f21b-4106-b9ed-4d8e9bb6fe74)
   ![image](https://github.com/user-attachments/assets/46b3f702-b952-4337-bafb-bb87025fa75b)
   ![image](https://github.com/user-attachments/assets/1cefae4d-f351-43f9-b306-4bedb8286dc0)
+  #### Inheritance
+  It is a mechanism in java by which one class is allowed to inherit the feature of another class.
+  - Done by extend keyword.
+   class Dog extends Animal
+  {  
+
+  }
+  ![image](https://github.com/user-attachments/assets/d0a37181-58cb-452a-ab57-97c93f9dc4f3)
+  ![image](https://github.com/user-attachments/assets/28badbd3-327b-4406-bf27-092a1d9c3127)
+  ![image](https://github.com/user-attachments/assets/9a37bd1a-4104-45f8-b40f-3c4c60115b3e)
+  ![image](https://github.com/user-attachments/assets/eed72c07-6cf2-4613-8b64-485b09fcf858)
+  ![image](https://github.com/user-attachments/assets/d178d7e8-1d88-4045-ae0f-ef202a301144)
   
+
+
+
+
 
   
 
