@@ -8,9 +8,14 @@
 //Easy to learn but slow | Fast
 //-----------------------------------
 
-//First.java  --> First.class(compiled into byte code by javac) --> JVM(Interpreter translates into machine code-slower) --> So java is hybrid language compiled as well intertreted while compiler generated the new file and interpretor wont.
+//First.java  --> First.class(compiled into byte code by javac) --> JVM - Executes the code (Interpreter translates into machine code-slower) --> So java is hybrid language compiled as well intertreted while compiler generated the new file and interpretor wont.
 
 //The bytecode can run on any platform that has a compatible Java Virtual Machine (JVM), enhancing Java's "write once, run anywhere" philosophy.
 
 //The fact that it starts with a compilation step into bytecode is significant. Therefore, it’s common to call Java a compiled language, even though its execution mechanism has hybrid traits.
+
+//Machine code talks to OS and can run on hardware.
+//C++ --> First.cpp --> First.exe --> OS runsa machine code on Hardware.
+//Java -->  First.java --> First.class (byte code given by javac compiler if there are no errors) --> JVM can undersand byte code and talk to OS to run it on Hardware.
+//So JVM understand bytecode so as per OS the JVM is different but can understand same byte code. JVM is platform dependent - and so makes Java platform independent.
 
