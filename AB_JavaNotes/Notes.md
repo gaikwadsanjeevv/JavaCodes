@@ -29,7 +29,7 @@
 - Dynamic object are created in Heap
 - when ever a method is called its stack frame is created in stack memory.  
 - The variables are stored in stack and references are created in Stack itself.
-- ![image](https://github.com/user-attachments/assets/5a8f043e-db08-49b5-9165-46f5e949dd84)  
-- 
+![image](https://github.com/user-attachments/assets/5a8f043e-db08-49b5-9165-46f5e949dd84)  
+
 
 
