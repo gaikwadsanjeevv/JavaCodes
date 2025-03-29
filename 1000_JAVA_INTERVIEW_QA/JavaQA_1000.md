@@ -1,7 +1,8 @@
 ## Java Interview Questions  
 
 #### 1. What is the difference between JDK and JRE?  
-Ans: ```answer
+Ans:
+  ```answer
 The JDK (Java Development Kit) and JRE (Java Runtime Environment) are two essential components of the Java ecosystem, but they serve different purposes.
 
 JDK:
