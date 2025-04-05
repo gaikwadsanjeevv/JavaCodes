@@ -111,7 +111,8 @@ public class Abstract{
 ##### If the class is abstract i cannnot make it final because final classes cannot be extended but abstract classes are ment to extend.  
 - I cannot use final in abstract method because then i cant override it, because abstract classes are ment to be overridden.
 #### Mostly nested classes are declared as static; Cannot use static keyword in abstract class and asbtract method because static method must have its body.  
-![image](https://github.com/user-attachments/assets/bd475991-758e-4884-8dd4-2ca420bdde58)  
+![image](https://github.com/user-attachments/assets/ebc1c2d9-aad1-4ed5-8dd8-1d91f0246359)
+
 
 
 -  
