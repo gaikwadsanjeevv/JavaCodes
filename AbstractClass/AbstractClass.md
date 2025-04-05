@@ -27,5 +27,14 @@ void method2()
 s.o.p("sub method2");
 ```
 - In the above case when sub class extend the Super class it becomes abstract class but when we override all the abstract methods of abstract class and define it with implementation as done above
--  we then make the sub class as concrete class because it now dont have any abstract class.  
+-  we then make the sub class as concrete class because it now dont have any abstract class.
+-  So when we make a class as abstract it dont necessarily need to have a abstract method. But if the method is abstract then class need to be abstract.
+-  Such abstract classes is used only for Inheritance
+-  In above programee we can do super class reference and sub class object  like: Super s = new Sub();
+
+#### Why we need abstract classes  
+- abstract classes is used for defining and imposing standards.
+- ![image](https://github.com/user-attachments/assets/eb2abfaf-0348-48e4-b713-3f1e48803827)
+- 
+
   
