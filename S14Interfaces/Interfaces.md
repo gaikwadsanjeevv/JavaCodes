@@ -163,9 +163,9 @@ public class SCInterface1 {
   - We can call the private methods inside the default methods if that situation arises because we cannot override the private method inside the interface only.  
   ![image](https://github.com/user-attachments/assets/c8458f71-1fe7-4750-a7dd-af970c0823ab)
  ![image](https://github.com/user-attachments/assets/3fee8ee0-e15a-40d9-99e2-99c9f7432e05)
-- Dotted lines show the relationship of interface implementation.
-🔹 Java doesn't support multiple class inheritance to avoid conflicts.
-🔹 But it supports multiple interface inheritance to allow flexibility, reusability, and polymorphism without ambiguity.
+- Dotted lines show the relationship of interface implementation.  
+🔹 Java doesn't support multiple class inheritance to avoid conflicts.  
+🔹 But it supports multiple interface inheritance to allow flexibility, reusability, and polymorphism without ambiguity.  
 
  
 
